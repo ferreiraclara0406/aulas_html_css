@@ -9,16 +9,54 @@
 <body>
     <form action="">
         <div>
-            <label for="nome">nome:</label>
+            <label for="nome">Nome:</label>
             <input type="text" id="nome" placeholder="Digite aqui seu nome" required >
         </div>
-</body>
-<body>
+
+   
+    <label for="dtnasc">Data Nasc</label>
+	<input type='date' id='dtnasc' name='dtnasc'>
+
     
-<form action="">
-    <div>
-        <label for="">Peso:</label>
-        <input type="range" id="peso" name="peso" min="0" max="200" >200
-    </div>
-</body>
+    <form action="">
+        <div>
+            <label for="fone">Celular com DDD</label>
+            <input type="tel" id="fone" name="fone" required pattern="[0-9]{2} [0-9]{5}-[0-9]{4}" placeholder="11 99999-9999">
+        </div>
+        <div>
+            <input type="radio" id="sexo-m" name="sexo" value="Masculino">
+	        <label for="sexo-m">Masculino</label><br>
+	     <input type="radio" id="sexo-f" name="sexo" value="Feminino">
+	     <label for="sexo-f">Feminio</label>
+        </div>
+        <div>
+            <p>Escolha uma marca:</p>
+            <div>
+                <input type="radio" id="Adidas" name="Time">
+                <label for="">Adidas</label>
+            
+                <input type="radio" id="Nike" name="Time"> 
+                <label for="">Nike</label>
+            
+                <input type="radio" id="Puma" name="Time">
+                <label for="">Puma</label>
+            
+                <input type="radio" id="Lacoste" name="Time">
+                <label for="">Lacoste</label>
+            </div>
+            <div>
+                <label for="cor">Seu tom de cabelo:</label>
+                <select name="tom" id="tom">
+                   <option disabled> Selecione.....</option>
+                    <option value="01TC">Loiro</option>
+                    <option value="O1TA">ruivo</option>
+                    <option value="O1TB">castanho</option>
+                    <option value="O1TB">preto</option>
+                </select>
+       <button>Enviar</button>
+
+    </form>
+
+    </body>
+
 </html>
