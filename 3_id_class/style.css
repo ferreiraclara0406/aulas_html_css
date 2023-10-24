@@ -2,6 +2,10 @@
     background: pink;
 }
 
+.texto-vermelho{
+    color: red;
+}
+
 h2{
     color: darkviolet;
 }
@@ -11,4 +15,9 @@ p{
     background: pink;
 }
 
+h2{
+    color: brown;
+}
+
 /* cascata */
+/*especificação*/
